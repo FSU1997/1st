@@ -1,0 +1,45 @@
+ul :nth-child(3n+1) {
+	color: blue;
+}
+ul :nth-child(4n+2) {
+	color: yellow;
+}
+tr:nth-child(2n) {
+    background-color: green;
+}
+tr:hover {
+  background-color: yellow;
+}
+tr:first-child :hover {
+		background-color: red;  
+ 
+	}
+/*Teksto formatavimas*/
+article h2{
+	font-family: 'Ranchers', cursive, sans-serif, 'Times New Roman';
+	font-size: 2em
+	font-weight:bold;
+	text-transform: uppercase;
+	text-align: center; /*left right justify*/
+}
+h1{
+	font-family: 'Permanent Marker', cursive, sans-serif;
+	font-size: 3em;
+	text-decoration: underline;
+	text-shadow: 2px 2px #ff0000;
+}
+article p{
+	font-family: 'Anton', sans-serif;
+	font-size: 0.5em;
+	font-style: italic;
+	font-weight:bold;
+}
+p span{
+	background-color: blue;
+	color: pink;
+	font-weight: 750;
+	text-decoration: underline;
+}
+article a{
+	text-decoration: none;
+}
